@@ -1,0 +1,109 @@
+:root{
+    --main-color:   #F8FAFC;
+    --back-color: #333333;
+    --border-color: #dedede;
+}
+body{
+    width: 1280px; ;
+    height: 750px;
+    background-color: var(--main-color);
+}
+.page{
+    max-width: 444px;
+   max-height: 454px;
+    margin-left: 418px;
+    margin-top: 100px;
+    border-radius: 4px;
+    box-shadow: 0px 6px 8px 0px #0000000D;
+}
+.welcome{
+    max-width: 116px;
+    height:18px ;
+    font-size: 14px; ;
+    font-family: "Mulish", sans-serif;
+    font-weight:400 ;
+    color:var(--back-color) ;
+    margin-left:48px ;
+}
+.account{
+    max-width:263px ;
+    height:30px ;
+    font-size:24px ;
+    font-weight: 700;
+    font-family: "Mulish", sans-serif;
+    margin-left: 48px ;
+}
+.email{
+    max-width:68px ;
+    height:18px ;
+    font-size:14px ;
+    font-family: "Mulish", sans-serif;
+    font-weight:500 ;
+    color: var(--back-color);
+    margin-left: 46px;
+}
+.emailito{
+    max-width:352px ;
+    height:45px ;
+    margin-left:46px ;
+    border-radius:6px ;
+}
+.password{
+    max-width: 65px;
+    height:18px ;
+    margin-left:46px ;
+    font-size:14px ;
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    color: var(--back-color);
+}
+.form-password{
+    max-width: 352px;
+height: 45px;
+border-radius: 6px;
+margin-left:46px ;
+}
+.button-div{
+    width: 352px;
+height: 45px;
+margin-left: 46px;
+border-radius: 6px 0px 0px 0px;
+background-color: #625BF7;
+}
+.a-tag{
+    display: block;
+    text-decoration: none;
+    color: var(--main-color);
+    text-align: center;
+}
+.tag-a{
+    display: block;
+    color: #625BF7;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+footer{
+    margin-top: 20px;
+}
+.new{
+    width: 175px;
+height: 15px;
+font-family: "Mulish", sans-serif;
+font-size: 12px;
+font-weight: 400;
+margin-left: 553px;
+text-decoration: none;
+color:black ;
+}
+.log-up{
+ width: 175px;
+height: 15px;
+font-family: "Mulish", sans-serif;
+font-size: 12px;
+font-weight: 400;
+text-decoration: none;
+color: #625BF7;
+}
